@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid wheat; */
+    margin: 0;
+    padding: 0;
+}
+
+/* General Style */
+
+/* Allows display of the content below fixed Navbar */
+html {
+    scroll-padding-top: 70px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.text-container {
+    text-align: center;
+    background-color: black;
+}
+
+h2, h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Navbar Style */
+
+.navbar {
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    /* opacity: 0; */
+}
+
+.navbar img {
+    height: 50px;
+    position: relative;
+    left: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 400px;
+    position: relative;
+    right: 10px;
+}
+
+/* Mission Style */
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./img/img-mission-background.jpeg);
+}
+
+.mission h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;;
+}
+
+/* Featured-tea Style */
+.featured-tea {
+    width: 1000px;
+    margin-top: 70px;
+}
+
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-item img {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+
+.tea-item h4 {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* Location Style */
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    height: 500px;
+    width: 1200px;
+    background-image: url(./img/img-locations-background.jpeg);
+}
+
+.location h2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.location-item {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    text-align: center;
+    margin: 0 20px;
+    line-height: 40px;
+}
+
+/* Footer Style */
+
+.contact {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.contact p {
+    position: relative;
+    left: 20px;
+}
+
