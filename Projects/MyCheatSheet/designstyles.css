@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --mist: #90AFC5;
+    --stone: #336B87;
+    --shadow: #2A3132;
+    --autumn: #763626;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    background-color:aliceblue;
+}
+/* General style */
+section {
+    border: 2px solid lightgray;
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Poppins', san-serif;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Lato', san-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway', san-serif;
+}
+
+span {
+    margin: 15px;
+    font-size: 0.9em;
+    font-family: 'Poppins', san-serif;
+}
+
+/* Colorcontainer style */
+
+div.colorscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.colorblock {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    font-weight: lighter;
+}
+
+span.colorhex {
+    text-align: left;
+}
+
+span.colorhex {
+    text-align: left;
+}
+
+div.mist {
+    background-color: var(--mist);
+}
+
+div.stone {
+    background-color: var(--stone);
+}
+
+div.shadow {
+    background-color: var(--shadow);
+}
+
+div.autumn {
+    background-color: var(--autumn);
+}
+
+/* fontscontainer style */
+
+div.fontscontainer {
+    display: flex;
+    flex-direction: column;    
+}
+
+div.fontblock {
+    position: relative;
+    left: 20px;
+}
+
+h3.fontheader {
+    text-decoration: underline;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic ;
+}
+
+/* Text Styles */
+
+div.textstyleblock {
+    position: relative;
+    left: 20px;
+}
+
+.textstyleblock h1, 
+.textstyleblock h2,
+.textstyleblock p {
+    text-align: left;
+}

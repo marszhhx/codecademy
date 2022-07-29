@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.header > h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url("/DasmotosArts/resources/pics/pattern.jpeg");
+    text-align: center;
+}
+
+.product > h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.product > p > span {
+    font-weight: bold;
+    color: blue;
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
